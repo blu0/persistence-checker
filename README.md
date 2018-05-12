@@ -9,4 +9,4 @@ C:>persistcheck.bat
 
 * This will create persistcheck.txt in the same directory the script is run from, where you can evaluate for malicious entries/anomalies.
 * Note that not all queries will return results.
-* This is just a tool to help investigations, but not meant as a replacement for AntiVirus/AntiMalware software or legitimate forensics investigations.
+* This is just a tool to help scoping of incidents. It not meant as a replacement for AntiVirus/AntiMalware software or legitimate forensics investigations.
