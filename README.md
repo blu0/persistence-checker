@@ -8,3 +8,4 @@
 C:>persistcheck.bat
 
 * This will create persistcheck.txt in the same directory the script is run from, where you can evaluate for malicious entries/anomalies.
+* Note that not all queries will return results.
