@@ -7,4 +7,4 @@
 ### Usage:
 C:>persistcheck.bat
 
-This will create persistcheck.txt in the same directory the script is run from, where you can evaluate for malicious entries/anomalies.
+* This will create persistcheck.txt in the same directory the script is run from, where you can evaluate for malicious entries/anomalies.
