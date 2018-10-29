@@ -32,6 +32,10 @@ reg query "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\BootExecute" >>
 reg query "HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows\load" >> persistcheck.txt
 reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SharedTaskScheduler >> persistcheck.txt
 reg query "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_DLLs" >> persistcheck.txt
+reg query "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Svchost" >> persistcheck.txt
+reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet\Enum\Root" >> persistcheck.txt
+reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root" >> persistcheck.txt
+reg query "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Enum\Root" >> persistcheck.txt
 ECHO **THE BELOW QUERIES REQUIRE ADMIN RIGHTS, RE-RUN AS ADMINISTRATOR IF FAILED** >> persistcheck.txt
 reg query "HKLM\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\SCHEDULE\TASKCACHE\TASKS" >> persistcheck.txt
 reg query "HKLM\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\SCHEDULE\TASKCACHE\TREE" >> persistcheck.txt
