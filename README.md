@@ -5,7 +5,7 @@
 * Some registry keys may require admin rights to query.
 
 ### Usage:
-C:>scrape.bat
+C:>regscrape.bat
 
 * This will create regscrape.txt in the same directory the script is run from, where you can evaluate for malicious entries/anomalies.
 * Note that not all queries will return results.
